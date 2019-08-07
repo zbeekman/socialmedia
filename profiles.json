@@ -1,6 +1,6 @@
-// **Group members profiles**   
-// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction
-	
+// **Group members profiles**
+// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction, (5) number of "dislikes" the profile will recieve
+
 window.others = {
   "posts" : [
       {
