@@ -370,7 +370,7 @@ $(function() {
     // For display of user and other players boxes in columns without gaps
 		$('#task').masonry({
 		  itemSelector : '.entry',
-		  columnWidth : 10
+		  columnWidth : 5
 		});
 
 
