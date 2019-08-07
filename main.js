@@ -53,6 +53,29 @@ $(function() {
     // Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
     settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky'];
+
+	// **Number** **of** **"dislikes"**
+    // Each received "dislike" is indicated by the timepoint (in ms) at which the "dislike" will appear. To change the number of "dislikes" in each condition, add or remove timepoints. Make sure that every timepoint (except the first) is preceded by a single comma.
+	// In cases with only 1 "dislike," a second "dislike" is added with time point 9999999. This "dislike" is added for programming purposes and is never executed, as it is outside the task time
+
+    // In condition 1, the participant will receive 1 dislike at the following timepoint (in ms). Default: [12000, 9999999]
+    settings.condition_1_dislikes = [12000, 9999999];
+
+    // In condition 2, user will receive 6 dislikes at the following timepoints (in ms). Default: [10000, 15000,35000,80000,1320000,150000]
+    settings.condition_2_dislikes = [10000, 15000,35000,80000,1320000,150000];
+
+    // In condition 3, user will receive 9 dislikes at the following timepoints (in ms). Default: [10000, 11000,15000,35000,80000,100000,110000,150000,20000]
+    settings.condition_3_dislikes = [10000, 11000,15000,35000,80000,100000,110000,150000,20000];
+
+	// **Others' dislikes**
+	// To keep the total distribution of "dislikes" constant across conditions, The "dislikes" received by one group member can be adjusted according to the participant's. By default, the other group member receives 9 "dislikes" in the participant-ostracism condition, 5 in the participant-inclusion condtion, and 1 in the participant-overinclusion condtion.
+	settings.condition_1_adjusted_dislikes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
+	settings.condition_2_adjusted_dislikes = [12000, 14000,15000,35000,80000]; // 5
+	settings.condition_3_adjusted_dislikes = [12000, 9999999]; //1
+
+    // Usernames by which the participant will receive "dislikes"
+	// If group member names are changed, these should be changed accordingly.
+    settings.dislikes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky'];
   }
 
   // -------------------
@@ -225,6 +248,7 @@ $(function() {
 			  "username": window.username,
 			  "text": window.description,
 			  "likes": window.settings.condition_likes,
+			    "dislikes": window.settings.condition_dislikes,
 			  "usernames": window.settings.likes_by
 			}
 		  ]
@@ -299,6 +323,49 @@ $(function() {
 		  $(this).attr("disabled", true);
 	  });
 
+    // When user receives dislikes
+	  $('.usersdislikes').each(function() {
+		var that = $(this);
+		var usernames = $(this).data('usernames').split(",");
+		var times = $(this).data('dislikes').split(",");
+
+		for(var i=0; i<times.length; i++)
+		{
+			times[i] = +times[i];
+
+			themsg = usernames[i] + " disliked your post";
+
+			setTimeout(function(themsg) {
+				that.text(parseInt(that.text()) + 1);
+				alertify.success(themsg)
+
+			}, times[i], themsg);
+		}
+	  });
+
+    // When others receive dislikes
+	  $('.othersdislikes').each(function() {
+		var that = $(this);
+		var times = $(this).data('dislikes').split(",");
+
+		for(var i=0; i<times.length; i++)
+		{
+			times[i] = +times[i];
+
+			setTimeout(function () {
+				that.text(parseInt(that.text()) + 1);
+			}, times[i]);
+
+		}
+	  });
+
+      // Initialize dislike buttons
+	  $('.btn-dislike').on('click', function() {
+		  $(this).prev().text(parseInt($(this).prev().text()) + 1);
+      // Dislike buttons can only be clicked once
+		  $(this).attr("disabled", true);
+	  });
+
     // Initalize Masonry plugin
     // For display of user and other players boxes in columns without gaps
 		$('#task').masonry({
@@ -367,14 +434,20 @@ $(function() {
 		case 1:
 			window.settings.condition_likes = settings.condition_1_likes;
 			window.others.posts[1].likes = settings.condition_1_adjusted_likes;
+			window.settings.condition_dislikes = settings.condition_1_dislikes;
+			window.others.posts[1].dislikes = settings.condition_1_adjusted_dislikes;
 			break;
 		case 2:
 			window.settings.condition_likes = settings.condition_2_likes;
 			window.others.posts[1].likes = settings.condition_2_adjusted_likes;
+			window.settings.condition_dislikes = settings.condition_2_dislikes;
+			window.others.posts[1].dislikes = settings.condition_2_adjusted_dislikes;
 			break;
 		case 3:
 			window.settings.condition_likes = settings.condition_3_likes;
 			window.others.posts[1].likes = settings.condition_3_adjusted_likes;
+			window.settings.condition_dislikes = settings.condition_3_dislikes;
+			window.others.posts[1].dislikes = settings.condition_3_adjusted_dislikes;
 			break;
 	}
 
