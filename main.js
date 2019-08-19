@@ -17,6 +17,8 @@ $(function() {
     function set_settings() {
 	window.settings = [];
 
+	// These were moved from profiles.json, it was causing load order issues
+
 	// **Group members profiles**
 	// Each profile consists of (1) avatar, (2) username, (3) personal description, (4) number of "likes" the profile will receive throughout the interaction, (5) number of "dislikes" the profile will recieve
 
