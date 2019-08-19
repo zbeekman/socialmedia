@@ -497,9 +497,7 @@ $(function() {
 	    window.redirect = window.redirect+"?redir=1";
 	}
 	//alert(window.redirect);
-
     }
-
 
     // adjustments according to current condition
     function adjust_to_condition() {
@@ -625,7 +623,7 @@ $(function() {
 
     // Set Settings, get Participant No. and Condition No.
     set_settings();
-    get_params();
+    $.getJSON("./profiles.json", get_params());
     adjust_to_condition();
 
     // Start with the intro slide
