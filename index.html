@@ -1,13 +1,13 @@
 <html lang="en"><!DOCTYPE html>
 
- <!-- 
-/* 
-  
-This document contains all instructions which appear in the paradigm, along with some basic functionality. You can change all text by following the instructions below. 
+ <!--
+/*
+
+This document contains all instructions which appear in the paradigm, along with some basic functionality. You can change all text by following the instructions below.
 
 If you don't have experience with programming, it is important that you alter only the plain text, as indicated in the instructions, and leave any functional elements intact.
-*/ 
---> 
+*/
+-->
 
 <meta charset="utf-8">
 <title>Intro</title>
@@ -17,22 +17,22 @@ If you don't have experience with programming, it is important that you alter on
 <meta name="author" content="">
 
 <!-- Stylesheets -->
-<link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
-<link href="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css" rel="stylesheet">
-<link href="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.core.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.default.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 
 <!-- For IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
-  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+  <script src="https://html5shim.googlecode.com/svn/trunk/html5.js">
   </script>
 <![endif]-->
 
 <!-- Javascript -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.3.0/mustache.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/alertify.js/0.3.10/alertify.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/2.1.08/jquery.masonry.min.js"></script>
 <script src="shortcut.js"></script>
 <script src="main.js"></script>
 <script type="text/javascript" src="profiles.json"></script>
@@ -45,18 +45,18 @@ If you don't have experience with programming, it is important that you alter on
 
 
 <div id="intro" style="display:none;" class="instr">
- <!-- 
-/* 
-  
+ <!--
+/*
+
 **Intro**
 ---------
 You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
 
-*/ 
+*/
 --> <h3>Welcome to this study</h3>
 
   You will complete a number of simple tasks, together with other people, <br>
-  with whom you will be connected via the internet. 
+  with whom you will be connected via the internet.
   <br><br>
   First, all participants in the study will select personal "avatars" and <br>
   write short texts to introduce themselves.
@@ -73,75 +73,75 @@ You can edit this text using basic HTML elements for styling (e.g., <br>, <h3>).
 
 
 <div id="name" style="display:none;" class="instr">
-<!-- 
-/* 
-  
+<!--
+/*
+
 **Username**
 ---------
 You can edit the instructions text for entering usernames below.
 
-*/ 
+*/
 -->
 	<h3>Please enter your name</h3>
 	Could be your first name, nickname, or initials<br><br>
-	
+
 	<input type="text" id="username"  autocomplete="off" /><br>	<br>
 	<button type="submit"  id="submit_username">Submit</button>
 </div>
 
 
 
-<div id="avatar" style="display:none;">	
-<!-- 
-/* 
-  
+<div id="avatar" style="display:none;">
+<!--
+/*
+
 **Avatar choice**
 ---------
 You can edit the instructions text. The text "Your choice of avatar will not be recorded or analyzed" depends on whether you record the choice of avatar.
 
-*/ 
+*/
 -->	<h3>Please select an avatar</h3>
 	This avatar will represent you during the group task, but will not be linked to any of your responses. <br>Your choice of avatar will not be recorded or analyzed.
 	<br><br>
 	<div class="avatars"></div>
 	<br><button type="submit"  id="submit_avatar">Submit</button>
 	<br><br>
-</div>	
+</div>
 
 
-<div id="text" style="display:none;" class="instr">	
-<!-- 
-/* 
-  
+<div id="text" style="display:none;" class="instr">
+<!--
+/*
+
 **Description entry**
 ---------
-You can edit the instructions text. 
+You can edit the instructions text.
 
-*/ 
+*/
 -->	<h3>Please introduce yourself </h3>
 	Please write a paragraph in which you introduce yourself to the rest of the group. <br>
 	Write something you would like to tell about yourself - anything you want to share.
-	<br><br>	
+	<br><br>
 	<textarea id="description" autocomplete="off" /></textarea><br>
 	<span id="count">Characters left: 400</span><br><br>
 	<button type="submit" id="submit_text">Submit</button>
-</div>	
+</div>
 
 
 
 <div id="fb_intro" style="display:none;" class="instr">
-<!-- 
-/* 
-  
+<!--
+/*
+
 **Task instructions**
 ---------
 You can edit the instructions text. The prompt to try and form an impression of the other players is recommended in all ostacism paradigms. Defining the action of "liking" is also recommended. The information regarding task duration can be adjusted to match the actual duration you have set.
 
-*/ 
+*/
 -->  <h3>Group Introduction</h3>
   Soon after connecting, you should be able to see the other people's descriptions. <br>
   You can read and react to the short introduction they wrote about themselves, by <br>
-  clicking a "like" button, similar to the "like" button on Facebook ("favorite" on Twitter,<br> 
+  clicking a "like" button, similar to the "like" button on Facebook ("favorite" on Twitter,<br>
   &hearts; in Tumblr and Instagram, etc.) <br>
   <br>
   Even though your interaction is minimal, please try to form an impression of the <br>
@@ -168,26 +168,28 @@ You can edit the instructions text. The prompt to try and form an impression of 
 </div>
 
 
-<!-- 
-/* 
-  
+<!--
+/*
+
 **In-task instructions and timer**
 ---------
-You can edit the instructions text. 
+You can edit the instructions text.
 
-*/ 
+*/
 -->
 <div id="task" style="display:none;">
-	<div id="countdown"><span class="secs" style="display: none;"></span>You can click "Like" if you have enjoyed somebody's description<br><br>time left:<br><span id="timer" class="cntr label label-info"></span>
+  <div id="countdown"><span class="secs" style="display: none;">
+    </span>You can click "Like" if you have enjoyed somebody's description or "Dislike" if you did not<br>
+    <br>time left:<br><span id="timer" class="cntr label label-info"></span>
 	<br>
-	<button type="submit" id='final-continue' style="display:none;">Continue</button>	
+	<button type="submit" id='final-continue' style="display:none;">Continue</button>
 	</div>
 </div>
 
 
 <script type="template/text" id="usertmp">
   {{#posts}}
-    
+
     <div class="entry">
     <div class="tophalf">
 
@@ -200,14 +202,14 @@ You can edit the instructions text.
 
     	<br style="clear:both;">
 
-    </div>	
+    </div>
 
     <div class="bottomhalf">
-    	Likes <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span>
+    Likes <span class="badge badge-custom userslikes" data-likes="{{likes}}" data-usernames="{{usernames}}">0</span> Dislikes <span class="badge badge-custom usersdislikes" data-dislikes="{{dislikes}}" data-usernames="{{usernames}}">0</span>
     </div>
     </div>
 
-  {{/posts}}  
+  {{/posts}}
 </script>
 
 
@@ -218,23 +220,25 @@ You can edit the instructions text.
 
     	<img src="{{avatar}}" class="avatar">
         <h3>{{username}}</h3>
-    	
+
     	<div class="main">
-    		
+
     		<p>{{text}}</p>
     	</div>
 
     	<br style="clear:both;">
 
-    </div>	
+    </div>
 
     <div class="bottomhalf">
-    	Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
-    	<button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
+         Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
+	 Dislikes <span class="badge badge-custom othersdislikes" data-dislikes="{{dislikes}}">0</span>
+	 <button type="submit" class="btn pull-right btn-dislike btn-custom btn-deround">Dislike <i class="icon-thumbs-down icon-white"></i></button>
+	 <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
     </div>
 
     </div>
-  {{/posts}}  
+  {{/posts}}
 </script>
 
 
