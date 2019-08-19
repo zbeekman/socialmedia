@@ -11,16 +11,6 @@
 
 $(function() {
 
-    // Ensure that profiles.json is loaded before proceeding
-    $.ajax({
-	url: 'profiles.json',
-	async: false,
-	dataType: 'json',
-	success: function (response) {
-	    console.log("profiles.json loaded")
-	}
-    });
-
     // **Parameters**
     // ------------
 
