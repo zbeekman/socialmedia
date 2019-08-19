@@ -178,7 +178,9 @@ You can edit the instructions text.
 */
 -->
 <div id="task" style="display:none;">
-	<div id="countdown"><span class="secs" style="display: none;"></span>You can click "Like" if you have enjoyed somebody's description<br><br>time left:<br><span id="timer" class="cntr label label-info"></span>
+  <div id="countdown"><span class="secs" style="display: none;">
+    </span>You can click "Like" if you have enjoyed somebody's description or "Dislike" if you did not<br>
+    <br>time left:<br><span id="timer" class="cntr label label-info"></span>
 	<br>
 	<button type="submit" id='final-continue' style="display:none;">Continue</button>
 	</div>
@@ -231,8 +233,8 @@ You can edit the instructions text.
     <div class="bottomhalf">
          Likes <span class="badge badge-custom otherslikes" data-likes="{{likes}}">0</span>
 	 Dislikes <span class="badge badge-custom othersdislikes" data-dislikes="{{dislikes}}">0</span>
-        <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
-	<button type="submit" class="btn pull-right btn-dislike btn-custom btn-deround">Dislike<i class="icon-thumbs-down icon-white"></i></button>
+	 <button type="submit" class="btn pull-right btn-dislike btn-custom btn-deround">Dislike <i class="icon-thumbs-down icon-white"></i></button>
+	 <button type="submit" class="btn pull-right btn-like btn-custom btn-deround">Like <i class="icon-thumbs-up icon-white"></i></button>
     </div>
 
     </div>

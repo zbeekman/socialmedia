@@ -393,7 +393,7 @@ $(function() {
 
 	// Initialize like buttons
 	$('.btn-like').on('click', function() {
-	    $(this).prev().text(parseInt($(this).prev().text()) + 1);
+	    $(this).prev().prev().prev().text(parseInt($(this).prev().prev().prev().text()) + 1);
 	    // Like buttons can only be clicked once
 	    $(this).attr("disabled", true);
 	});
@@ -412,7 +412,7 @@ $(function() {
 
 		setTimeout(function(themsg) {
 		    that.text(parseInt(that.text()) + 1);
-		    alertify.success(themsg)
+		    alertify.error(themsg)
 
 		}, times[i], themsg);
 	    }
@@ -445,7 +445,8 @@ $(function() {
 	// For display of user and other players boxes in columns without gaps
 	$('#task').masonry({
 	    itemSelector : '.entry',
-	    columnWidth : 5
+	    fitWidth: true
+//	    columnWidth : 920
 	});
 
 
