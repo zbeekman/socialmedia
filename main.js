@@ -11,6 +11,16 @@
 
 $(function() {
 
+    // Ensure that profiles.json is loaded before proceeding
+    $.ajax({
+	url: 'profiles.json',
+	async: false,
+	dataType: 'json',
+	success: function (response) {
+	    console.log("profiles.json loaded")
+	}
+    });
+
     // **Parameters**
     // ------------
 
@@ -623,7 +633,7 @@ $(function() {
 
     // Set Settings, get Participant No. and Condition No.
     set_settings();
-    $.getJSON("./profiles.json", get_params());
+    get_params();
     adjust_to_condition();
 
     // Start with the intro slide
