@@ -441,6 +441,14 @@ $(function() {
 	}
 	reorder();
 
+	// Initalize Masonry plugin
+	// For display of user and other players boxes in columns without gaps
+	$('#task').masonry({
+	    itemSelector : '.entry',
+	    fitWidth: true
+//	    columnWidth : 920
+	});
+
 	// When user receives likes
 	$('.userslikes').each(function() {
 	    var that = $(this);
@@ -528,14 +536,7 @@ $(function() {
 	    $(this).attr("disabled", true);
 	});
 
-	// Initalize Masonry plugin
-	// For display of user and other players boxes in columns without gaps
-	$('#task').masonry({
-	    itemSelector : '.entry',
-	    fitWidth: true
-//	    columnWidth : 920
-	});
-
+	$('#task').masonry
 
 	// Redirect, default after 180000ms = 180s = 3min
 	setTimeout(function() {
