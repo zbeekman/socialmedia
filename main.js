@@ -411,7 +411,8 @@ $(function() {
 		    "text": window.description,
 		    "likes": window.settings.condition_likes,
 		    "dislikes": window.settings.condition_dislikes,
-		    "usernames": window.settings.likes_by
+		    "likesusers": window.settings.likes_by,
+		    "dislikesusers": window.settings.dislikes_by
 		}
 	    ]
 	};
@@ -452,7 +453,7 @@ $(function() {
 	// When user receives likes
 	$('.userslikes').each(function() {
 	    var that = $(this);
-	    var usernames = $(this).data('usernames').split(",");
+	    var usernames = $(this).data('likesusers').split(",");
 	    var times = $(this).data('likes').split(",");
 
 	    for(var i=0; i<times.length; i++)
@@ -496,7 +497,7 @@ $(function() {
 	// When user receives dislikes
 	$('.usersdislikes').each(function() {
 	    var that = $(this);
-	    var usernames = $(this).data('usernames').split(",");
+	    var usernames = $(this).data('dislikesusers').split(",");
 	    var times = $(this).data('dislikes').split(",");
 
 	    for(var i=0; i<times.length; i++)
