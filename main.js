@@ -490,7 +490,7 @@ $(function() {
 	$('.btn-like').on('click', function() {
 	    $(this).prev().prev().prev().text(parseInt($(this).prev().prev().prev().text()) + 1);
 	    // Like buttons can only be clicked once
-	    $(this).attr("disabled", true);
+	    $(this).parent().find('button, btn').attr("disabled", true);
 	});
 
 	// When user receives dislikes
@@ -533,7 +533,7 @@ $(function() {
 	$('.btn-dislike').on('click', function() {
 	    $(this).prev().text(parseInt($(this).prev().text()) + 1);
 	    // Dislike buttons can only be clicked once
-	    $(this).attr("disabled", true);
+	    $(this).parent().find('button, btn').attr("disabled", true);
 	});
 
 	$('#task').masonry
