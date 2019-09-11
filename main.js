@@ -26,80 +26,80 @@ $(function() {
 	    "posts" : [
 		{
 		    "avatar": "avatars/others/george.png",
-		    "username": "Georgeee",
-		    "text": "I'm a 19 year old dude from Wisconsin (commence making fun of my accent). I love music and lately you can catch me listening to nothing but Joy Division, Echo & the bunnymen, and the smiths. Besides music I like learning languages, psychology, drawing, and writing.",
+		    "username": "George",
+		    "text": "I am liberal. I am pro-choice, a strong advocate for women's rights, minority rights, support gun control, and a strong supporter of refugees and DACA. I wish the government did more to help those less fortunate. I think that people need to be more open to immigrants as they help the country and although some are illegal, we shouldnâ€™t remove them from the U.S. because they are only coming here to try to better themselves and their families. ",
 		    "likes": [45000, 50000, 110000, 150000],
-		    "dislikes": [45000, 50000, 110000, 150000]
+		    "dislikes": [45000, 60000, 130000]
 		},
 		{
-		    "avatar": "avatars/others/sarah.png",
-		    "username": "Sarah",
-		    "text": "Let me introduce myself. I’m Sarah, married, and mother of two wonderful (grown up) children. My career has been a bit peculiar. Starting off as a graduate historian, I switched to an entirely different discipline: occupational assessor trying to help young people with disabilities to get a job. I’ve just retired and started spending more time on my hobbies, such as singing, reading, and playing volleyball.",
-		    "likes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000],
-		    "dislikes": [12000, 14000,15000,35000,80000,100000,110000,150000,20000]
+		    "avatar": "avatars/others/nick.png",
+		    "username": "Nick",
+		    "text": "I am definitely liberal. To state my beliefs simply, I am very passionate about gun control, higher taxes on the top 1%, and opening our borders to refugees. There should be more intensive background checks for any purchase of guns. I also am an advocate for LGBTQ+ and Women's reproductive and sexual health rights. Organizations like Planned Parenthood that help women stay healthy and safe should be funded by taxpayers.",
+		    "likes": [12000, 14000, 15000, 35000, 80000, 100000, 110000, 150000, 168000],
+			"dislikes": [77000, 9999999]
 		},
 		{
 		    "avatar": "avatars/others/john.png",
 		    "username": "John",
-		    "text": "Hi there, I’m 57 years old, married, with two kids. I’ve been a computer programmer in the states for about 30 years, but don’t worry: I don’t have the dusty haircut, oversized buttoned shirt and nerdie big frame glasses. Looking forward to working with you all. Cheers, John",
+		    "text": "I am more conservative, and focus on a few different main pillars. General conservative values including limiting abortions, limited government, strong national defense, and free enterprise. I am passionate about providing housing and psychological treatment to veterans, because we do not support the military enough. What is also very important to me is my right to bear arms. I feel like limits to the second amendment are a threat to society and the safety of citizens.",
 		    "likes": [20000, 21000],
-		    "dislikes": [20000, 21000]
-		},
-		{
-		    "avatar": "avatars/others/anca.png",
-		    "username": "AncaD",
-		    "text": "I am a Computer Science student, interested in Natural Language processing. Also a lover of loose leaf tea and a Semantic Web enthusiast. I’m curious about what this task is about.",
-		    "likes": [10000, 12000, 40000, 80000, 120000],
-		    "dislikes": [10000, 12000, 40000, 80000, 120000]
-		},
-		{
-		    "avatar": "avatars/others/niki.png",
-		    "username": "Nick",
-		    "text": "My life revolves around rock climbing. I started climbing when I was 12 (turning 18 soon) and usually climb 4-5 hours a day. Climbing never bores me, because each time is different – the routes, the weather, my strength and endurance. It’s great!",
-		    "likes": [40000, 450000, 90000, 100000, 150000, 155000],
-		    "dislikes": [40000, 450000, 90000, 100000, 150000, 155000]
+		    "dislikes": [11000, 35000, 100000, 190000]
 		},
 		{
 		    "avatar": "avatars/others/mary.png",
 		    "username": "Mary",
-		    "text": "My name is Mary and I am 49 years old. I have a husband and 2 grown sons. My family and I lived in different countries. Our sons attended international schools wherever we went and since moving to China, I found work at those schools as well. Besides roaming around the world, I like playing games. Board games, cards, black jack or poker, mah jong, or silly games on Facebook, jig saws, basically anything",
+		    "text": "I identify as very liberal on essentially all political issues from the economy to social issues to foreign policy. Some of the most important political topics to me are environmental protection, protecting reproductive rights, and gun reform. Another important issue to me is ensuring equality for all Americans in law and in practice, even if that means more laws and policies. I believe that the government and taxes exist in order to protect and provide for citizens.",
+		    "likes": [10000, 12000, 40000, 80000, 120000],
+			"dislikes": [68100, 9999999]
+		},
+		{
+		    "avatar": "avatars/others/sarah.png",
+		    "username": "Sarah",
+		    "text": "I would consider myself to be more liberal. One of the most pressing issues for me is climate change. I think that drastic action should be taken on both a national and international level to combat climate change. I think gun reform is very critical to creating a safer society and I also think pro LGBT and anti-discriminatory enforcements policies like affirmative action are important for creating a safe and equal space for everyone.",
+		    "likes": [40000, 45000, 90000, 100000, 150000, 155000, 168000],
+		    "dislikes": [108000, 9999999]
+		},
+		{
+		    "avatar": "avatars/others/ana.png",
+		    "username": "Ana",
+		    "text": "I am more liberal. Education, health care, and the environment are stances that are very important to me. I believe there should be more funding in public education, especially in lower-income neighborhoods. I also believe in tighter gun control and that the death penalty should be abolished. Another thing important to me politically is the US Prison System and how it targets minorities and underprivileged people.",
 		    "likes": [20000, 25000, 95000],
-		    "likes": [20000, 25000, 95000]
+		    "dislikes": [65000, 9999999]
 		},
 		{
 		    "avatar": "avatars/others/lauren.png",
 		    "username": "Lauren",
-		    "text": "I’m Lauren, I love to hang out with friends and go shopping. Just doing some online studies here!",
+		    "text": "I identify as more conservative. Currently, I am very invested in the debate on the security of the United States. There is a drain on our resources by supporting illegal immigration, and this needs to be stopped. Maintaining the safety of our country from others should be a top priority. Thus, government funding should be put towards maintaining the safety of American citizens. I also do not believe that our country is currently able to undertake universal healthcare.",
 		    "likes": [12000, 38000],
-		    "dislikes": [12000, 38000]
+		    "dislikes": [15000, 50000, 60000, 75000, 175000]
 		},
 		{
-		    "avatar": "avatars/others/kim.png",
+		    "avatar": "avatars/others/ky.png",
 		    "username": "Ky",
-		    "text": "Hey, guys. I'm 19, native Korean. I've been in America for about four years now.I consider myself pretty nice, though not a total angel. I just like being friendly to people I meet. In my spare time, I like making all kinds of friends, having conversations about whatever, looking at paintings, using makeup, reading, singing (show choir representtt!), making jewelry, and eating delicious food. Enjoy your day, stay out of trouble. <3",
-		    "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000],
-		    "likes": [10000, 50000, 88000, 11000, 11500, 120000, 15000]
+		    "text": "I am liberal. Politically I care a lot about healthcare because I am interested in becoming a doctor one day and I think everyone should have free healthcare, as it is a human right. I think that taxes should be based on income level and the wealthiest should pay even higher taxes. With increases in taxes on the wealthy, we can allow all Americans to have access to free healthcare, which can make our country better.",
+		    "likes": [58000, 88000, 11000, 120000, 15000],
+		    "dislikes": [11500, 9999999]
 		},
 		{
 		    "avatar": "avatars/others/arjen.png",
 		    "username": "Arjen",
-		    "text": "My name's Arjen, I study Artificial Intelligence. Also I like to use my free time to make all kinds of different things... I'm kind of a nerd too, I guess.",
+		    "text": "I am more liberal. I am from California and environmental issues are also very important to me because of the impact they have on my home state and how much they were emphasized in school. We need to take drastic action on climate change, make sure people have a livable wage, and have higher taxes for the ultra-wealthy. Climate change is important because it affects all of the future generations and us.",
 		    "likes": [12000, 40000, 120000],
-		    "dislikes": [12000, 40000, 120000]
+		    "dislikes": [65000, 125000]
 		},
 		{
 		    "avatar": "avatars/others/heather.png",
 		    "username": "Heather",
-		    "text": "Just now I'm finishing up my first year of a difficult science curriculum in university. I also work at a cosmetics counter as a part-time thing and earn some money online in my free time. I have a lot planned for my future, and it's really exciting. I want to grow up and be a doctor with a family of lots of little dogs. It'll be fantastic.",
-		    "likes": [13000, 50000, 80000, 88000, 120000],
-		    "dislikes": [13000, 50000, 80000, 88000, 120000]
+		    "text": "I'm more liberal. I believe in universal health care, social programming, free college education, and the importance of social responsibility rather than simply individual rights. I stand for women's reproductive rights and believe that every woman has the right to have access to an abortion. I also take a firm stance on gun laws, I think there should be tighter restrictions for who is able to own them and what type of guns are made available.",
+		    "likes": [13000, 71000, 80000, 88000, 120000],
+		    "dislikes": [50500, 89000]
 		},
 		{
 		    "avatar": "avatars/others/jane.png",
 		    "username": "Jane",
-		    "text": "Dear all, my name is Jane and I will soon have an important interview. This is all I can think about these days. I hope you're doing well",
-		    "likes": [10000, 50000],
-		    "dislikes": [10000, 50000],      },
+		    "text": "I am liberal. Something important to me is he opioid crisis - I believe Americans should be spending more money on programs for Americans suffering from addiction and training physicians. I believe in universal healthcare, social programming, free education, and the importance of social responsibility rather than simply individual rights.",
+		    "likes": [10000, 55000, 165000],
+		    "dislikes": [12000, 75000, 200500],      },
 
 	    ]
 	};
@@ -122,7 +122,7 @@ $(function() {
 	// folder "avatars," located in the main study folder
 	// extracted on your computer or server.
 
-	settings.numberofavatars = 10;
+	settings.numberofavatars = 73;
 
 
 	// **Redirection**
@@ -163,7 +163,7 @@ $(function() {
 
 	// In condition 1, the participant will receive 1 like at the
 	// following timepoint (in ms). Default: [12000, 9999999]
-	settings.condition_1_likes = [12000, 9999999];
+	settings.condition_1_likes = [20000, 35000, 100000, 150000, 165000];
 
 	// In condition 2, user will receive 6 likes at the following
 	// timepoints (in ms). Default:
@@ -190,7 +190,7 @@ $(function() {
 
 	// Usernames by which the participant will receive "likes"
 	// If group member names are changed, these should be changed accordingly.
-	settings.likes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky'];
+	settings.likes_by = ['Lauren','John','Sarah','Arjen','Jane'];
 
 	// **Number** **of** **"dislikes"**
 
@@ -205,7 +205,7 @@ $(function() {
 
 	// In condition 1, the participant will receive 1 dislike at
 	// the following timepoint (in ms). Default: [12000, 9999999]
-	settings.condition_1_dislikes = [12000, 9999999];
+	settings.condition_1_dislikes = [40000,9999999];
 
 	// In condition 2, user will receive 6 dislikes at the
 	// following timepoints (in ms). Default:
@@ -226,13 +226,13 @@ $(function() {
 	// the participant-ostracism condition, 5 in the
 	// participant-inclusion condtion, and 1 in the
 	// participant-overinclusion condtion.
-	settings.condition_1_adjusted_dislikes = [12000, 14000,15000,35000,80000,100000,110000,150000,20000]; // 9
+	settings.condition_1_adjusted_dislikes = [12000, 9999999]; // 9
 	settings.condition_2_adjusted_dislikes = [12000, 14000,15000,35000,80000]; // 5
 	settings.condition_3_adjusted_dislikes = [12000, 9999999]; //1
 
 	// Usernames by which the participant will receive "dislikes"
 	// If group member names are changed, these should be changed accordingly.
-	settings.dislikes_by = ['John','AncaD','Sarah','Arjen','Jane','George','Dan','Heather','Ky'];
+	settings.dislikes_by = ['Mary','Heather','George','Nick'];
     }
 
     // -------------------
@@ -337,7 +337,7 @@ $(function() {
 		error = 1;
 		errormsg = 'Please enter text';
 	    }
-	    if($('#description').val() !== "" && $('#description').val().length < 140) {
+	    if($('#description').val() !== "" && $('#description').val().length < 200) {
 
 		error = 1;
 		errormsg = 'Please write a bit more';
